@@ -1,5 +1,6 @@
 (ns user
-  (:require [nextjournal.clerk :as clerk]))
+  (:require [nextjournal.clerk :as clerk]
+            [clojure.tools.namespace.repl :refer [refresh]]))
 
 (defn go
   []
