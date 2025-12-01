@@ -4,4 +4,4 @@
   (:import javax.imageio.ImageIO
            java.net.URL))
 
-;;; Hello, World!
+;;; # Hello, World!
