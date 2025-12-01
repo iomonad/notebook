@@ -1,0 +1,1458 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-12-01T22:28:55Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/60072165",
+        "addr:housenumber": "6",
+        "addr:street": "Vänrikki Stoolin katu",
+        "amenity": "place_of_worship",
+        "denomination": "methodist",
+        "name": "Kristuskyrkan",
+        "name:sv": "Kristuskyrkan",
+        "religion": "christian",
+        "website": "https://helsingfors.metodistkyrkan.fi/",
+        "wikidata": "Q10549299",
+        "wikimedia_commons": "Category:Kristuskyrkan",
+        "wikipedia": "sv:Kristuskyrkan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.927272,
+          60.1759175
+        ]
+      },
+      "id": "node/60072165"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/73101644",
+        "addr:city": "Helsinki",
+        "addr:housenumber": "45",
+        "addr:postcode": "00980",
+        "addr:street": "Vuotie",
+        "amenity": "place_of_worship",
+        "denomination": "lutheran",
+        "level": "1",
+        "level:ref": "T",
+        "name": "Katukappeli",
+        "operator": "Vuosaaren seurakunta",
+        "religion": "christian",
+        "wheelchair": "yes",
+        "wikidata": "Q25453951",
+        "wikipedia": "fi:Katukappeli"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.1452682,
+          60.2072601
+        ]
+      },
+      "id": "node/73101644"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/75794367",
+        "addr:city": "Helsinki",
+        "addr:country": "FI",
+        "addr:housenumber": "2",
+        "addr:postcode": "00520",
+        "addr:street": "Veturitori",
+        "amenity": "place_of_worship",
+        "denomination": "charismatic",
+        "email": "info@elavasana.net",
+        "name": "ESY Church",
+        "phone": "+359 9 148 2510",
+        "religion": "christian",
+        "service_times": "Tu-Th 09:30-14:30 Su 16:00-18:00",
+        "start_date": "1983",
+        "website": "https://www.elavasana.net/",
+        "wikidata": "Q11857721",
+        "wikipedia": "fi:Elävän Sanan Yhteys"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9375965,
+          60.1997317
+        ]
+      },
+      "id": "node/75794367"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/151007310",
+        "addr:city": "Helsinki",
+        "addr:country": "FI",
+        "addr:housenumber": "31",
+        "addr:postcode": "00180",
+        "addr:street": "Albertinkatu",
+        "amenity": "place_of_worship",
+        "contact:website": "filahelsinki.fi",
+        "denomination": "pentecostal",
+        "email": "info@filahelsinki.fi",
+        "name": "Fila Church Helsinki",
+        "name:fi": "Fila Church Helsinki",
+        "name:sv": "Helsingfors Filadelfiaförsamling",
+        "phone": "+358 44 7345 400",
+        "religion": "christian",
+        "service_times": "tu 09:00-17:00 su 15:30-19:00",
+        "website": "http://www.filahelsinki.fi/",
+        "wikidata": "Q110311410",
+        "wikipedia": "fi:Fila Helsinki"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.93255,
+          60.165002
+        ]
+      },
+      "id": "node/151007310"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/277575650",
+        "addr:city": "Helsinki",
+        "addr:country": "FI",
+        "amenity": "place_of_worship",
+        "check_date": "2024-08-27",
+        "name": "Helsingin Islam-keskus",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9372129,
+          60.1996823
+        ]
+      },
+      "id": "node/277575650"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/282569715",
+        "addr:city": "Helsinki",
+        "addr:country": "FI",
+        "addr:housenumber": "12",
+        "addr:postcode": "00640",
+        "addr:street": "Siltavoudintie",
+        "amenity": "place_of_worship",
+        "denomination": "lutheran",
+        "name": "Oulunkylän vanha kirkko",
+        "religion": "christian",
+        "source:addr": "Interpolation",
+        "website": "http://helsinginkirkot.fi/fi/kirkot/oulunkylan-vanha-kirkko",
+        "wheelchair": "yes",
+        "wikidata": "Q11886125",
+        "wikimedia_commons": "Category:Oulunkylä old church",
+        "wikipedia": "fi:Oulunkylän puukirkko"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9671917,
+          60.2313779
+        ]
+      },
+      "id": "node/282569715"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/297793084",
+        "amenity": "place_of_worship",
+        "name": "Puistolan kirkko",
+        "name:fi": "Puistolan kirkko",
+        "name:sv": "Parkstads kyrka",
+        "religion": "christian",
+        "wikidata": "Q18661482",
+        "wikimedia_commons": "Category:Puistola Church",
+        "wikipedia": "fi:Puistolan kirkko"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0530715,
+          60.2695357
+        ]
+      },
+      "id": "node/297793084"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/304248969",
+        "amenity": "place_of_worship",
+        "denomination": "orthodox",
+        "name": "Munkkiniemen ortodoksinen kirkko",
+        "religion": "christian",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8688616,
+          60.1988017
+        ]
+      },
+      "id": "node/304248969"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/307963893",
+        "addr:city": "Helsinki",
+        "addr:country": "FI",
+        "addr:housenumber": "4",
+        "addr:street": "Munkkiniemen puistotie",
+        "amenity": "place_of_worship",
+        "name": "Al-Iman moskeija",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8830704,
+          60.1964524
+        ]
+      },
+      "id": "node/307963893"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/314941093",
+        "addr:city": "Helsinki",
+        "addr:housenumber": "1",
+        "addr:postcode": "00320",
+        "addr:street": "Mäkipellonaukio",
+        "amenity": "place_of_worship",
+        "check_date": "2024-03-10",
+        "denomination": "mormon",
+        "name": "Myöhempien aikojen pyhien Jeesuksen kristuksen kirkko",
+        "religion": "christian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9010963,
+          60.2199116
+        ]
+      },
+      "id": "node/314941093"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/384826797",
+        "addr:city": "Helsinki",
+        "addr:country": "FI",
+        "addr:housenumber": "7",
+        "addr:postcode": "00120",
+        "addr:street": "Annankatu",
+        "amenity": "place_of_worship",
+        "denomination": "adventist",
+        "name": "Helsingfors Adventkyrka",
+        "name:fi": "Annankadun adventtiseurakunta",
+        "religion": "christian",
+        "website": "https://fsa.adventist.fi/kirke/helsingfors-adventkyrka/",
+        "wheelchair": "no",
+        "wikidata": "Q118108746",
+        "wikipedia": "fi:Annankadun adventtiseurakunta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9416078,
+          60.1638043
+        ]
+      },
+      "id": "node/384826797"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/384826816",
+        "addr:city": "Helsinki",
+        "addr:country": "FI",
+        "addr:housenumber": "1",
+        "addr:postcode": "00120",
+        "addr:street": "Annankatu",
+        "amenity": "place_of_worship",
+        "denomination": "free_evangelical",
+        "name": "Helsingin vapaaseurakunta",
+        "religion": "christian",
+        "website": "https://www.helsinginvapaaseurakunta.fi",
+        "wikidata": "Q117844841",
+        "wikipedia": "fi:Helsingin vapaaseurakunta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9427987,
+          60.162821
+        ]
+      },
+      "id": "node/384826816"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/408081448",
+        "addr:city": "Helsinki",
+        "addr:country": "FI",
+        "addr:housenumber": "2",
+        "addr:postcode": "00120",
+        "addr:street": "Punavuorenkatu",
+        "addr:unit": "B 17",
+        "amenity": "place_of_worship",
+        "contact:website": "http://www.helsinginmetodistiseurakunta.fi",
+        "denomination": "methodist",
+        "name": "Helsingin metodistiseurakunta",
+        "religion": "christian",
+        "website": "https://www.helsinginmetodistiseurakunta.fi",
+        "wikidata": "Q116743943",
+        "wikipedia": "fi:Helsingin metodistiseurakunta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9398243,
+          60.1616639
+        ]
+      },
+      "id": "node/408081448"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/623077708",
+        "addr:city": "Helsinki",
+        "addr:country": "FI",
+        "addr:housenumber": "10",
+        "addr:postcode": "00980",
+        "addr:street": "Vuosaarentie",
+        "amenity": "place_of_worship",
+        "denomination": "free_evangelical",
+        "name": "Vuosaaren vapaaseurakunta",
+        "religion": "christian",
+        "website": "https://www.vuosaarenvapis.fi/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.1452624,
+          60.2099313
+        ]
+      },
+      "id": "node/623077708"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/665143250",
+        "amenity": "place_of_worship",
+        "name": "Tapanilan kirkko",
+        "religion": "christian",
+        "wheelchair": "yes",
+        "wikidata": "Q11896437",
+        "wikimedia_commons": "Category:Tapanila Church",
+        "wikipedia": "fi:Tapanilan kirkko"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0298958,
+          60.2659844
+        ]
+      },
+      "id": "node/665143250"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/739402500",
+        "addr:city": "Helsinki",
+        "addr:housenumber": "2",
+        "addr:postcode": "00900",
+        "addr:street": "Kastelholmantie",
+        "amenity": "place_of_worship",
+        "name": "Muslimien rukoushuone",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0803252,
+          60.2136031
+        ]
+      },
+      "id": "node/739402500"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1489190219",
+        "amenity": "place_of_worship",
+        "name": "Kaaren seurakuntakoti",
+        "religion": "christian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.075729,
+          60.2438603
+        ]
+      },
+      "id": "node/1489190219"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1608849779",
+        "addr:city": "Helsinki",
+        "addr:housename": "Kaari",
+        "addr:housenumber": "1",
+        "addr:postcode": "00420",
+        "addr:street": "Kantelettarentie",
+        "amenity": "place_of_worship",
+        "denomination": "lutheran",
+        "email": "kannelmaki.srk@evl.fi",
+        "level": "-1",
+        "name": "Paikka",
+        "phone": "+358 9 234 03802",
+        "religion": "christian",
+        "website": "https://www.helsinginseurakunnat.fi/seurakunnat/kannelmaki.html",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8927105,
+          60.2370769
+        ]
+      },
+      "id": "node/1608849779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2512779461",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Diakonissalaitoksen kirkko",
+        "name:sv": "Diakonissanstaltens kyrka",
+        "religion": "christian",
+        "wikidata": "Q25452579",
+        "wikimedia_commons": "Category:Church of the Deaconess Institute",
+        "wikipedia": "fi:Helsingin Diakonissalaitoksen kirkko"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9388935,
+          60.1844246
+        ]
+      },
+      "id": "node/2512779461"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3055478176",
+        "addr:city": "Helsinki",
+        "addr:country": "FI",
+        "addr:housenumber": "33A",
+        "addr:postcode": "00120",
+        "addr:street": "Fredrikinkatu",
+        "amenity": "place_of_worship",
+        "email": "valonshala_78@hotmail.com",
+        "name": "Suomen Islam-seurakunta",
+        "phone": "09643579",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9385134,
+          60.1634718
+        ]
+      },
+      "id": "node/3055478176"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4036467701",
+        "addr:city": "Helsinki",
+        "addr:housenumber": "3",
+        "addr:postcode": "00700",
+        "addr:street": "Malmin asematie",
+        "amenity": "place_of_worship",
+        "contact:email": "toimisto@malminsaalem.fi",
+        "contact:phone": "+358505870424",
+        "contact:website": "malminsaalem.fi",
+        "denomination": "pentecostal",
+        "name": "Malmin Saalem",
+        "religion": "christian",
+        "start_date": "1993",
+        "wikipedia": "fi:Malmin Saalem-seurakunta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0087187,
+          60.2484058
+        ]
+      },
+      "id": "node/4036467701"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4307992570",
+        "addr:city": "Helsinki",
+        "addr:housenumber": "3",
+        "addr:postcode": "00250",
+        "addr:street": "Nordenskiöldinkatu",
+        "amenity": "place_of_worship",
+        "denomination": "pentecostal",
+        "email": "seurakunta@siion.net",
+        "image": "https://siion.net/wp-content/uploads/2021/02/nordenskioldinkatu.jpg",
+        "name": "Helsingin Siion-seurakunta",
+        "phone": "+358 45 649 7076",
+        "religion": "christian",
+        "service_times": "11:00-13:00",
+        "start_date": "1945",
+        "website": "https://siion.net/",
+        "wikidata": "Q11862126",
+        "wikimedia_commons": "Category:Siion Church, Helsinki",
+        "wikipedia": "fi:Helsingin Siion-seurakunta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9179013,
+          60.1867053
+        ]
+      },
+      "id": "node/4307992570"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4345414502",
+        "addr:city": "Helsinki",
+        "addr:housenumber": "4 B",
+        "addr:postcode": "00720",
+        "addr:street": "Pukinmäenaukio",
+        "amenity": "place_of_worship",
+        "denomination": "pentecostal",
+        "name": "Helsingin Raamattu Puhuu -seurakunta",
+        "religion": "christian",
+        "website": "https://www.raamattupuhuu.fi/",
+        "wikidata": "Q5600556",
+        "wikipedia": "fi:Raamattu Puhuu -seurakunta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9931564,
+          60.2426494
+        ]
+      },
+      "id": "node/4345414502"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4429078851",
+        "addr:city": "Helsinki",
+        "addr:housenumber": "10",
+        "addr:postcode": "00100",
+        "addr:street": "Kaisaniemenkatu",
+        "amenity": "place_of_worship",
+        "contact:phone": "0972694290",
+        "denomination": "evangelical",
+        "name": "One Way -seurakunta",
+        "opening_hours": "Tu, Th, Fr 12:00-17:00; Fr 12:00-15:00",
+        "phone": "+358 45 114 88 55",
+        "religion": "christian",
+        "website": "https://www.onewayhelsinki.fi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9483252,
+          60.1728208
+        ]
+      },
+      "id": "node/4429078851"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4620729688",
+        "addr:city": "Helsinki",
+        "addr:housenumber": "5",
+        "addr:postcode": "00970",
+        "addr:street": "Kaunispääntie",
+        "amenity": "place_of_worship",
+        "name": "Resalat islamilainen yhdyskunta ry",
+        "religion": "muslim",
+        "website": "https://www.resalat.fi/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.1266771,
+          60.2335067
+        ]
+      },
+      "id": "node/4620729688"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4865883657",
+        "addr:city": "Helsinki",
+        "addr:country": "FI",
+        "addr:housenumber": "40",
+        "addr:postcode": "00120",
+        "addr:street": "Uudenmaankatu",
+        "amenity": "place_of_worship",
+        "building:maintenance:operator": "Housetek Oy",
+        "denomination": "free_evangelical",
+        "name": "Pelastusarmeija",
+        "name:en": "Salvation Army",
+        "name:sv": "Frälsningsarmen",
+        "religion": "christian",
+        "wikidata": "Q53445984",
+        "wikipedia": "fi:Pelastusarmeijan museo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9364096,
+          60.1628175
+        ]
+      },
+      "id": "node/4865883657"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4879156043",
+        "addr:city": "Helsinki",
+        "addr:country": "FI",
+        "addr:housenumber": "2",
+        "addr:street": "Albertinkatu",
+        "amenity": "place_of_worship",
+        "denomination": "lutheran",
+        "name": "Suomen merimieskirkko - Finnish Seamen's Church",
+        "religion": "christian",
+        "source": "mission;church;place of worship"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9399411,
+          60.1594411
+        ]
+      },
+      "id": "node/4879156043"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5083815690",
+        "amenity": "place_of_worship",
+        "name": "Vartiosaaren metsäkirkko",
+        "religion": "christian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0747421,
+          60.1853653
+        ]
+      },
+      "id": "node/5083815690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5299930492",
+        "addr:city": "Helsinki",
+        "addr:housenumber": "22",
+        "addr:postcode": "00130",
+        "addr:street": "Korkeavuorenkatu",
+        "amenity": "place_of_worship",
+        "denomination": "protestant",
+        "name": "Andreaskyrkan",
+        "religion": "christian",
+        "website": "https://andreaskyrkan.fi/",
+        "wheelchair": "limited",
+        "wikidata": "Q117844837",
+        "wikipedia": "fi:Andreaskirkko"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9458698,
+          60.1645152
+        ]
+      },
+      "id": "node/5299930492"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5315169720",
+        "addr:city": "Helsinki",
+        "addr:housenumber": "22b",
+        "addr:postcode": "00210",
+        "addr:street": "Itälahdenkatu",
+        "amenity": "place_of_worship",
+        "denomination": "baptist",
+        "email": "kari.koskinen2@gmail.com",
+        "image": "https://www.helsinginbaptistilahetys.fi/@Bin/172195/Kuva0475.jpeg",
+        "level": "3",
+        "name": "Helsingin baptistilähetys",
+        "phone": "044 533 5188",
+        "religion": "christian",
+        "service_times": "Su 14:00; We 19:00-20:00; Th 18:00-19:00; Fr 19:00-20:00",
+        "website": "https://www.helsinginbaptistilahetys.fi/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8784503,
+          60.1531051
+        ]
+      },
+      "id": "node/5315169720"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5531336187",
+        "addr:city": "Helsinki",
+        "addr:housenumber": "2",
+        "addr:postcode": "00120",
+        "addr:street": "Punavuorenkatu",
+        "addr:unit": "B",
+        "amenity": "place_of_worship",
+        "denomination": "pentecostal",
+        "email": "lighthouse@lcclight.com",
+        "name": "Lighthouse Christian Center",
+        "phone": "+358449892208",
+        "religion": "christian",
+        "website": "https://www.lcclight.com/",
+        "wikidata": "Q115627648",
+        "wikipedia": "fi:Lighthouse Christian Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9398691,
+          60.1616348
+        ]
+      },
+      "id": "node/5531336187"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5623628821",
+        "addr:city": "Helsinki",
+        "addr:housenumber": "60",
+        "addr:postcode": "00260",
+        "addr:street": "Mannerheimintie",
+        "amenity": "place_of_worship",
+        "check_date": "2023-12-01",
+        "denomination": "jehovahs_witness",
+        "name": "Jehovan todistajien valtakunnansali",
+        "religion": "christian",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.926449,
+          60.1820366
+        ]
+      },
+      "id": "node/5623628821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5673022128",
+        "addr:city": "Helsinki",
+        "addr:housenumber": "2",
+        "addr:postcode": "00580",
+        "addr:street": "Kyläsaarenkuja",
+        "amenity": "place_of_worship",
+        "denomination": "lutheran",
+        "name": "Diakonia-ammattikorkeakoulun kappeli",
+        "religion": "christian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9694924,
+          60.1990054
+        ]
+      },
+      "id": "node/5673022128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5678438564",
+        "amenity": "place_of_worship",
+        "building": "chapel",
+        "check_date": "2024-11-08",
+        "denomination": "lutheran",
+        "name": "Hyvän toivon kappeli",
+        "religion": "christian",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9125539,
+          60.1568267
+        ]
+      },
+      "id": "node/5678438564"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5780849353",
+        "amenity": "place_of_worship",
+        "denomination": "jehovahs_witness",
+        "name": "Jehovan todistajien valtakunnansali",
+        "religion": "christian",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9259681,
+          60.2437483
+        ]
+      },
+      "id": "node/5780849353"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6060938338",
+        "addr:city": "Helsinki",
+        "addr:housename": "Redi",
+        "addr:housenumber": "5",
+        "addr:postcode": "00580",
+        "addr:street": "Hermannin rantatie",
+        "amenity": "place_of_worship",
+        "level": "2",
+        "name": "Silta",
+        "opening_hours": "Mo-Fr 09:00-21:00; Sa 09:00-18:00; Su 12:00-18:00",
+        "phone": "+358 9 23400",
+        "religion": "christian",
+        "website": "https://www.helsinginseurakunnat.fi/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9790421,
+          60.1870232
+        ]
+      },
+      "id": "node/6060938338"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6570948504",
+        "addr:city": "Helsinki",
+        "addr:housenumber": "7",
+        "addr:postcode": "00420",
+        "addr:street": "Sitratie",
+        "amenity": "place_of_worship",
+        "name": "Al-Taqwa mosque",
+        "name:ar": "مسجد التقوى",
+        "name:ar-Latn": "masjid altaqwaa",
+        "name:en": "Al-Taqwa mosque",
+        "name:fi": "Al-Taqwa moskeija",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8753436,
+          60.2394667
+        ]
+      },
+      "id": "node/6570948504"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6882895890",
+        "addr:city": "Helsinki",
+        "addr:housenumber": "10",
+        "addr:street": "Työpajankatu",
+        "addr:unit": "C",
+        "amenity": "place_of_worship",
+        "contact:phone": "044 244 0761",
+        "contact:website": "https://www.citykirkko.fi",
+        "denomination": "evangelical",
+        "email": "info@citykirkko.fi",
+        "name": "Citykirkko",
+        "phone": "+358 44 244 0761",
+        "religion": "christian",
+        "website": "https://www.citykirkko.fi/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9769172,
+          60.1883863
+        ]
+      },
+      "id": "node/6882895890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7676941239",
+        "addr:housenumber": "31",
+        "addr:street": "Merimiehenkatu",
+        "amenity": "place_of_worship",
+        "name": "Ruusu-Risti"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9375639,
+          60.1601884
+        ]
+      },
+      "id": "node/7676941239"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7784850517",
+        "addr:city": "Helsinki",
+        "addr:housenumber": "4",
+        "addr:postcode": "00500",
+        "addr:street": "Harjutori",
+        "amenity": "place_of_worship",
+        "denomination": "pentecostal",
+        "name": "Siiloan-seurakunta",
+        "religion": "christian",
+        "service_times": "Su 18:00",
+        "website": "https://www.siiloan.fi/",
+        "wikidata": "Q125489891",
+        "wikipedia": "fi:Siiloan-seurakunta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9589968,
+          60.1870652
+        ]
+      },
+      "id": "node/7784850517"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7818186254",
+        "addr:city": "Helsinki",
+        "addr:housenumber": "3",
+        "addr:postcode": "00620",
+        "addr:street": "Läkkisepäntie",
+        "amenity": "place_of_worship",
+        "denomination": "pentecostal",
+        "name": "Love Story - Kingdom Family",
+        "religion": "christian",
+        "service_times": "Su 16:00",
+        "website": "https://www.facebook.com/lovestory.helsinki",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9367265,
+          60.218847
+        ]
+      },
+      "id": "node/7818186254"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8463402853",
+        "addr:city": "Helsinki",
+        "addr:housenumber": "7",
+        "addr:postcode": "00980",
+        "addr:street": "Harustie",
+        "addr:unit": "D",
+        "amenity": "place_of_worship",
+        "denomination": "pentecostal",
+        "name": "Vuosaaren Ankkuriseurakunta",
+        "religion": "christian",
+        "website": "https://www.ankkuriseurakunta.fi/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.1200763,
+          60.2039838
+        ]
+      },
+      "id": "node/8463402853"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9162780275",
+        "addr:city": "Helsinki",
+        "addr:housenumber": "4",
+        "addr:postcode": "00940",
+        "addr:street": "Keinulaudankuja",
+        "addr:unit": "B",
+        "amenity": "place_of_worship",
+        "denomination": "pentecostal",
+        "email": "toimisto@metrokappeli.fi",
+        "name": "Kontulan Metrokappeli",
+        "phone": "+358405454805",
+        "religion": "christian",
+        "website": "https://www.metrokappeli.fi/",
+        "wikidata": "Q115627633",
+        "wikipedia": "fi:Kontulan Metrokappeli"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0832403,
+          60.2361669
+        ]
+      },
+      "id": "node/9162780275"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9235590467",
+        "addr:city": "Helsinki",
+        "addr:housenumber": "12",
+        "addr:postcode": "00530",
+        "addr:street": "Castréninkatu",
+        "amenity": "place_of_worship",
+        "check_date": "2024-11-26",
+        "denomination": "free_evangelical",
+        "name": "Helsingin venäläinen vapaaseurakunta",
+        "religion": "christian",
+        "website": "http://www.kovtcheg.org"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9459056,
+          60.1847374
+        ]
+      },
+      "id": "node/9235590467"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9243831765",
+        "addr:city": "Helsinki",
+        "addr:housenumber": "3",
+        "addr:postcode": "00910",
+        "addr:street": "Puotilantie",
+        "addr:unit": "A",
+        "amenity": "place_of_worship",
+        "denomination": "adventist",
+        "name": "Living Spring Outreach SDA",
+        "religion": "christian",
+        "website": "https://fsa.adventist.fi/kirke/living-spring-outreach-sda/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.1007954,
+          60.209103
+        ]
+      },
+      "id": "node/9243831765"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9258373078",
+        "addr:city": "Helsinki",
+        "addr:housenumber": "1",
+        "addr:postcode": "00120",
+        "addr:street": "Erottajankatu",
+        "amenity": "place_of_worship",
+        "denomination": "baptist",
+        "name": "Helsingin baptistiseurakunta, Betel",
+        "religion": "christian",
+        "wikidata": "Q116743942",
+        "wikipedia": "fi:Helsingin baptistiseurakunta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9443238,
+          60.1643411
+        ]
+      },
+      "id": "node/9258373078"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9260392761",
+        "addr:city": "Helsinki",
+        "addr:housenumber": "53",
+        "addr:postcode": "00180",
+        "addr:street": "Kalevankatu",
+        "amenity": "place_of_worship",
+        "denomination": "evangelical_lutheran",
+        "name": "Helsingin itsenäinen evankelisluterilainen seurakunta",
+        "operator": "Seurakuntaliitto",
+        "religion": "christian",
+        "start_date": "1958",
+        "website": "https://seurakuntaliitto.fi/helsinki/",
+        "wikidata": "Q31087225",
+        "wikipedia": "fi:Helsingin itsenäinen evankelisluterilainen seurakunta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9275092,
+          60.1637895
+        ]
+      },
+      "id": "node/9260392761"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9260392765",
+        "addr:city": "Helsinki",
+        "addr:housenumber": "7",
+        "addr:postcode": "00120",
+        "addr:street": "Annankatu",
+        "amenity": "place_of_worship",
+        "denomination": "protestant",
+        "name": "Pyhän Markuksen luterilainen seurakunta",
+        "religion": "christian",
+        "wikidata": "Q28721205",
+        "wikipedia": "fi:Pyhän Markuksen luterilainen seurakunta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9415515,
+          60.1637863
+        ]
+      },
+      "id": "node/9260392765"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9261840897",
+        "addr:city": "Helsinki",
+        "addr:housenumber": "61",
+        "addr:postcode": "00100",
+        "addr:street": "Fredrikinkatu",
+        "addr:unit": "B",
+        "amenity": "place_of_worship",
+        "denomination": "protestant",
+        "name": "Etelä-Suomen Rauhan Sana",
+        "name:fi": "Etelä-Suomen Rauhan Sana",
+        "name:sv": "Fridsföreningen i Södra Finland",
+        "religion": "christian",
+        "website": "https://www.frebe.fi/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9326285,
+          60.1680298
+        ]
+      },
+      "id": "node/9261840897"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9261840898",
+        "addr:city": "Helsinki",
+        "addr:housenumber": "18",
+        "addr:postcode": "00140",
+        "addr:street": "Tähtitorninkatu",
+        "amenity": "place_of_worship",
+        "denomination": "evangelical",
+        "name": "International Evangelical Church in Finland",
+        "religion": "christian",
+        "website": "https://www.church.fi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.950466,
+          60.1604521
+        ]
+      },
+      "id": "node/9261840898"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9261840899",
+        "addr:city": "Helsinki",
+        "addr:housenumber": "13",
+        "addr:postcode": "00120",
+        "addr:street": "Tarkk'ampujankatu",
+        "addr:unit": "A 3",
+        "amenity": "place_of_worship",
+        "denomination": "evangelical_lutheran",
+        "name": "Luthersalen",
+        "religion": "christian",
+        "website": "https://www.slef.fi/om-slef/kanslier/helsingfors"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9436489,
+          60.1612021
+        ]
+      },
+      "id": "node/9261840899"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11360099209",
+        "amenity": "place_of_worship",
+        "denomination": "evangelical",
+        "name": "Lähetyskirkko",
+        "name:fi": "Lähetyskirkko",
+        "name:sv": "Finska Missionssällskapet",
+        "religion": "christian",
+        "website": "https://felm.org",
+        "wikidata": "Q26254582",
+        "wikimedia_commons": "Category:Mission Church (Helsinki)",
+        "wikipedia": "fi:Lähetyskirkko"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9503396,
+          60.1604397
+        ]
+      },
+      "id": "node/11360099209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11438309506",
+        "addr:city": "Helsinki",
+        "addr:housenumber": "6",
+        "addr:postcode": "00280",
+        "addr:street": "Koroistentie",
+        "amenity": "place_of_worship",
+        "name": "Drala Thang",
+        "phone": "0442574162",
+        "religion": "buddhist",
+        "website": "https://www.dralathang.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9020356,
+          60.2005686
+        ]
+      },
+      "id": "node/11438309506"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11734288431",
+        "addr:city": "Helsinki",
+        "addr:housenumber": "55",
+        "addr:postcode": "00580",
+        "addr:street": "Hämeentie",
+        "alt_name": "Hoiva- ja palvelukoti Helenan kirkko",
+        "amenity": "place_of_worship",
+        "denomination": "orthodox",
+        "name": "Pyhien lapsimarttyyrien Pistiksen, Elpiksen, Agapen ja heidän äitinsä Sofian kirkko",
+        "name:fi": "Pyhien lapsimarttyyrien Pistiksen, Elpiksen, Agapen ja heidän äitinsä Sofian kirkko",
+        "operator": "Helsingin ortodoksinen seurakunta",
+        "religion": "christian",
+        "website": "https://www.hos.fi/kirkot/helenan-vanhainkodin-kirkko/?area=all&church=Hoiva-%20ja%20palvelukoti%20Helenan%20kirkko&month=03",
+        "wikidata": "Q752470",
+        "wikipedia": "fi:Suomen ortodoksinen kirkko"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9651184,
+          60.1898667
+        ]
+      },
+      "id": "node/11734288431"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12086583277",
+        "addr:city": "Helsinki",
+        "addr:housenumber": "8",
+        "addr:postcode": "00270",
+        "addr:street": "Paciuksenkaari",
+        "addr:unit": "B 18",
+        "amenity": "place_of_worship",
+        "denomination": "baptist",
+        "email": "moi@beroianbaptisti.fi",
+        "name": "Beroian Baptistiseurakunta",
+        "religion": "christian",
+        "service_times": "Su 10:30",
+        "start_date": "2024-08-11",
+        "website": "https://beroianbaptisti.fi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8958721,
+          60.1961793
+        ]
+      },
+      "id": "node/12086583277"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12149823921",
+        "addr:city": "Helsinki",
+        "addr:country": "FI",
+        "addr:housenumber": "1",
+        "addr:postcode": "00250",
+        "addr:street": "Tavaststjernankatu",
+        "alt_name": "Kräsä Helsinki",
+        "amenity": "place_of_worship",
+        "denomination": "lutheran",
+        "email": "jani.heino@sana.fi",
+        "name": "Hehku",
+        "opening_hours": "Sep-May Fr 18:00-22:30",
+        "phone": "040 848 2154",
+        "religion": "christian",
+        "service_times": "Sep-May Fr 19:00-22:00",
+        "website": "https://kansanraamattuseura.fi/opiskelijat/helsinki-opiskelijat/hehku-illat/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9157018,
+          60.1874065
+        ]
+      },
+      "id": "node/12149823921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12244059295",
+        "addr:city": "Helsinki",
+        "addr:housenumber": "5",
+        "addr:postcode": "00100",
+        "addr:street": "Apollonkatu",
+        "amenity": "place_of_worship",
+        "denomination": "united_methodist",
+        "name": "Helsingfors svenska metodistförsamling",
+        "name:fi": "Helsingin ruotsalainen metodistiseurakunta",
+        "religion": "christian",
+        "wikidata": "Q117844824",
+        "wikipedia": "fi:Helsingin ruotsalainen metodistiseurakunta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9273233,
+          60.1759305
+        ]
+      },
+      "id": "node/12244059295"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12603373537",
+        "addr:city": "Helsinki",
+        "addr:housenumber": "3",
+        "addr:postcode": "00620",
+        "addr:street": "Läkkisepäntie",
+        "amenity": "place_of_worship",
+        "name": "Sila Church",
+        "religion": "christian",
+        "website": "https://www.silachurch.fi/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.93656,
+          60.2188413
+        ]
+      },
+      "id": "node/12603373537"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13292130109",
+        "addr:city": "Helsinki",
+        "addr:housenumber": "2",
+        "addr:postcode": "00980",
+        "addr:street": "Meri-Rastilan kuja",
+        "addr:unit": "B",
+        "amenity": "place_of_worship",
+        "name": "Mosque - Masjid",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.1188742,
+          60.203944
+        ]
+      },
+      "id": "node/13292130109"
+    }
+  ]
+}
