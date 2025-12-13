@@ -1,5 +1,9 @@
 ^{:nextjournal.clerk/visibility {:code :hide}}
 (ns experiments.maps
+  {:type :experiments
+   :title "Clerk & Maps"
+   :preview-image "https://images.unsplash.com/photo-1577086664693-894d8405334a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fG1hcHxlbnwwfHwwfHx8MA%3D%3D"
+   :description "Experiment with Clerk and Javascript Map libraries"}
   (:require [nextjournal.clerk :as clerk]
             [charred.api :as charred]))
 
