@@ -35,6 +35,9 @@ jobs:
       - name: Build Static
         run: lein build-static
 
+      - name: Flatten directory
+        run: mv public/build/notebooks/* public/build && rm -rf public/build/notebooks/
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
