@@ -4,4 +4,20 @@
   (:import javax.imageio.ImageIO
            java.net.URL))
 
-;;; # Hello, World!
+;;; # Notebooks
+
+;;; Here are my notes, used to expose my mess playing around data on the internet.
+
+;;; ## Data Analysis
+
+;;; > TODO
+
+;;; ## Challenges
+
+;;; ### Advent-of-Code
+
+;;; > TODO
+
+;;; ### Project Euleur
+
+;;; > TODO
