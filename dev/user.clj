@@ -6,5 +6,4 @@
   []
   (clerk/serve! {:watch-paths ["notebooks"]
                  :browse? true
-                 :port 8080})
-  (clerk/show! "notebooks/index.clj"))
+                 :port 8080}))
