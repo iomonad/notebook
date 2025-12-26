@@ -1,6 +1,7 @@
 ^{:nextjournal.clerk/visibility {:code :hide}}
 (ns scrapping.inventaire-puits-paris
   (:require [nextjournal.clerk :as clerk]
+            [toolbox.collections :as coll]
             [clj-http.client :as http]
             [hickory.core :as hickory]
             [hickory.select :as s]
@@ -10,7 +11,7 @@
 
 ;;; La Commission française pour la protection du patrimoine historique et rural (**C.F.P.P.H.R.**), ainsi que l' Association pour la sauvegarde et l'étude du patrimoine souterrain (A.S.E.P.S.) sont deux associations loi de 1901, très complémentaires qui fonctionnent ensemble.
 
-;;; Nous allons dans ce notebook extraire et consolider le travail de bénédictin Mr. Cahuzac à recenser les puits historiques dans la Ville de Paris.
+;;; Nous allons dans ce notebook extraire et consolider le travail de bénédictin de Mr. Cahuzac à recenser les puits historiques dans la Ville de Paris.
 
 ;;; L'idee etant de constituer une carte de toutes les adresses.
 
@@ -38,7 +39,7 @@
   (->> archived-pages-raw
        (map (comp hickory/as-hickory hickory/parse))))
 
-;;; Selection de l'essentiel
+;;; ## Filtrage de l'essentiel
 
 ^{::clerk/auto-expand-results? true}
 (def page-POIs
@@ -57,6 +58,7 @@
 
 ;;; Decoupage & triage de la data
 
+^{::clerk/visibility {:result :hide}}
 (defn format-well [data]
   (let [[loca description] (str/split data #":")]
     {:well/location (str/trim loca)
@@ -91,9 +93,60 @@
 
 ;;; Recuperation des deux pages sous forme de data partiellement enrichies
 
+;;; Utilisation de l'API de Geocoding
+
+^{::clerk/visibility {:result :hide}}
+(require '[geospatial.geocoding :as geocode])
+
 (def well-data
   (apply merge (map group-well-data page-POIs)))
 
 ;;; Calcul total des puis qui ont ete extraits
 
 (def total-well (reduce + (vals (update-vals well-data count))))
+
+;;; Formatage des donnees, pour le geocodage, generation d'une vue plate
+
+(def well-data-flat
+  (->> well-data
+       (mapcat (fn [[arrondissement wells]]
+                 (map (fn [well]
+                        (-> (update well :well/location #(str % " " arrondissement " Paris"))
+                            (assoc :well/postal-code arrondissement)))
+                      wells)))))
+
+;;; Filtrage sur l'ordre de match elasticsearch, idealement, il faudrait choisir le resultat avec le `:score` le plus haut.
+
+^{::clerk/visibility {:result :hide}}
+(defn select-biggest-score
+  [elastic-score]
+  [(->> (sort-by #(get-in % [:properties :score]) > elastic-score)
+        (first))])
+
+;;; Creation d'une fonction utilitaire pour calculer le geocodage de l'adresse.
+
+;;; Solution du pauvre pour mitiger le rate-limit cote serveur de Geocoding
+
+^{::clerk/visibility {:result :hide}}
+(defn geocode-well
+  [well]
+  (Thread/sleep 100)
+  (let [geojson-geocode (geocode/geocode (:well/location well))]
+    (-> (update geojson-geocode :features select-biggest-score)
+        (assoc-in [:features 0 :properties :description] (:well/description well))
+        (assoc-in [:features 0 :properties :original-address] (:well/location well)))))
+
+;;; Calcul de tout le dataset
+
+^{::clerk/auto-expand-results? true}
+(def resultats (mapv geocode-well well-data-flat))
+
+;;; On fusionne ici tous les Features collection a un format en une seule FeatureCollection
+
+(def geojson-results (apply coll/deep-merge resultats))
+
+;;; ## Creation du fichier d'export
+
+(comment
+  (count geojson-results)
+  (spit "/tmp/puits.geojson" (charred.api/write-json-str geojson-results)))
