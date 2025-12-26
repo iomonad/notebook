@@ -58,9 +58,9 @@
 ;;; Decoupage & triage de la data
 
 (defn format-well [data]
-  (let [[loca description] (str/split data ":")]
+  (let [[loca description] (str/split data #":")]
     {:well/location (str/trim loca)
-     :well/description (str/capitalize description)}))
+     :well/description (str/capitalize (str/trim description))}))
 
 ^{::clerk/visibility {:result :hide}}
 (defn group-well-data
@@ -70,26 +70,30 @@
                                      (= tag :a))))
         headers (map first (partition-all 2 splited))
         values  (map second (partition-all 2 splited))]
-    {:headers
-     (->> headers
-          (map (fn [{:keys [content]}]
-                 {:paris/arrondissement (-> (get-in content [1 :content 0])
-                                            (str/split #"\(")
-                                            first
-                                            str/trim)})))
-     :values
-     (->> values
-          (map (fn [data]
-                 (->> (map (fn [poi]
-                             (-> poi
-                                 (str/replace "\n" "")
-                                 (str/trim)))
-                           data)
-                      (keep seq)
-                      (map (partial apply str))
-                      (remove #(str/starts-with? % "{"))
-                      (map format-well)))))}))
+    (->> [(->> headers
+               (map (fn [{:keys [content]}]
+                      (-> (get-in content [1 :content 0])
+                          (str/split #"\(")
+                          first
+                          str/trim))))
+          (->> values
+               (map (fn [data]
+                      (->> (map (fn [poi]
+                                  (-> poi
+                                      (str/replace "\n" "")
+                                      (str/trim)))
+                                data)
+                           (keep seq)
+                           (map (partial apply str))
+                           (remove #(str/starts-with? % "{"))
+                           (map format-well)))))]
+         (apply zipmap))))
 
-;;; Recuperation des deux pages
+;;; Recuperation des deux pages sous forme de data partiellement enrichies
 
-(group-well-data (first page-POIs))
+(def well-data
+  (apply merge (map group-well-data page-POIs)))
+
+;;; Calcul total des puis qui ont ete extraits
+
+(def total-well (reduce + (vals (update-vals well-data count))))
