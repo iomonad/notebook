@@ -2,6 +2,9 @@
   :description "A Clojure / Clerk notebook repo to centralize my experimentations with OpenData, and other sources."
   :url "https://github.com/iomonad/notebook"
   :dependencies [[org.clojure/clojure         "1.12.3"]
+                 [io.trosa/geospatial         "0.1.0"]
+                 [io.trosa/toolbox            "1.1.4"]
+                 [org.clj-commons/hickory     "0.7.7"]
                  [io.github.nextjournal/clerk "0.18.1158"]
                  [com.cnuernber/charred       "1.037"]]
   :source-paths ["dev" "notebooks" "src"]
