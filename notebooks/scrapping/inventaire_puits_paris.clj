@@ -57,6 +57,11 @@
 
 ;;; Decoupage & triage de la data
 
+(defn format-well [data]
+  (let [[loca description] (str/split data ":")]
+    {:well/location (str/trim loca)
+     :well/description (str/capitalize description)}))
+
 ^{::clerk/visibility {:result :hide}}
 (defn group-well-data
   [pois]
@@ -81,7 +86,9 @@
                                  (str/trim)))
                            data)
                       (keep seq)
-                      (map (partial apply str))))))}))
+                      (map (partial apply str))
+                      (remove #(str/starts-with? % "{"))
+                      (map format-well)))))}))
 
 ;;; Recuperation des deux pages
 
