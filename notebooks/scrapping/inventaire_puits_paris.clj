@@ -2,6 +2,7 @@
 (ns scrapping.inventaire-puits-paris
   (:require [nextjournal.clerk :as clerk]
             [toolbox.collections :as coll]
+            [geospatial.geojson :as geojson]
             [clj-http.client :as http]
             [hickory.core :as hickory]
             [hickory.select :as s]
@@ -125,16 +126,16 @@
 
 ;;; Creation d'une fonction utilitaire pour calculer le geocodage de l'adresse.
 
-;;; Solution du pauvre pour mitiger le rate-limit cote serveur de Geocoding
-
 ^{::clerk/visibility {:result :hide}}
 (defn geocode-well
   [well]
-  (Thread/sleep 100)
-  (let [geojson-geocode (geocode/geocode (:well/location well))]
-    (-> (update geojson-geocode :features select-biggest-score)
+  (let [geojson-geocode (geocode/geocode (:well/location well) {:service :google})]
+    (-> geojson-geocode
         (assoc-in [:features 0 :properties :description] (:well/description well))
-        (assoc-in [:features 0 :properties :original-address] (:well/location well)))))
+        (assoc-in [:features 0 :properties :original-address] (:well/location well))
+        (update :features (fn [feat]
+                            (filterv #(get-in % [:properties :description])
+                                     feat))))))
 
 ;;; Calcul de tout le dataset
 
@@ -148,5 +149,5 @@
 ;;; ## Creation du fichier d'export
 
 (comment
-  (count geojson-results)
-  (spit "/tmp/puits.geojson" (charred.api/write-json-str geojson-results)))
+  (def clean (geojson/transpose-geojson-coordinates geojson-results (comp vec reverse)))
+  (spit "/tmp/puits_v3.geojson" (charred.api/write-json-str clean)))
